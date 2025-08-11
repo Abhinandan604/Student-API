@@ -4,6 +4,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
+@CrossOrigin(origins = "http://localhost:5500") // Allow frontend
 public class StudentController {
 
     @Autowired
